@@ -13,6 +13,12 @@ Os dados utilizados são públicos e abertos, fornecidos pela **Polícia Rodovi�
 
 ---
 
+## 📌 Link Youtube video demonstrativo C2
+
+Link do video: https://www.youtube.com/watch?v=k83Fv3fEDLs
+
+---
+
 ## 🎯 Objetivo
 
 Analisar dados de acidentes de trânsito para identificar padrões **temporais**, **espaciais** e **causais**, indo além da estatística descritiva ao aplicar:
@@ -26,11 +32,11 @@ Analisar dados de acidentes de trânsito para identificar padrões **temporais**
 
 O projeto está alinhado aos seguintes **Objetivos de Desenvolvimento Sustentável da ONU**:
 
-| ODS | Descrição |
-|-----|-----------|
-| **ODS 3** | Saúde e Bem-Estar — prevenção e redução de sinistros |
-| **ODS 9** | Indústria, Inovação e Infraestrutura |
-| **ODS 11** | Cidades e Comunidades Sustentáveis |
+| ODS        | Descrição                                            |
+| ---------- | ---------------------------------------------------- |
+| **ODS 3**  | Saúde e Bem-Estar — prevenção e redução de sinistros |
+| **ODS 9**  | Indústria, Inovação e Infraestrutura                 |
+| **ODS 11** | Cidades e Comunidades Sustentáveis                   |
 
 ---
 
@@ -48,15 +54,15 @@ Estudantes do **6º período de Ciência da Computação** – FAESA:
 
 ## 🛠️ Tecnologias
 
-| Área | Ferramentas |
-|------|------------|
-| Linguagem | Python 3.x |
-| Manipulação de dados | Pandas, NumPy |
-| Machine Learning | Scikit-Learn |
-| Visualização | Matplotlib, Seaborn |
-| Business Intelligence | Power BI / Metabase *(a definir)* |
-| Frontend (dashboard) | React, TypeScript, Vite, Tailwind CSS |
-| Versionamento | Git & GitHub |
+| Área                  | Ferramentas                           |
+| --------------------- | ------------------------------------- |
+| Linguagem             | Python 3.x                            |
+| Manipulação de dados  | Pandas, NumPy                         |
+| Machine Learning      | Scikit-Learn                          |
+| Visualização          | Matplotlib, Seaborn                   |
+| Business Intelligence | Power BI / Metabase _(a definir)_     |
+| Frontend (dashboard)  | React, TypeScript, Vite, Tailwind CSS |
+| Versionamento         | Git & GitHub                          |
 
 ---
 
@@ -135,11 +141,11 @@ Acesse em: **http://localhost:8080**
 
 ## 📅 Cronograma de Entregas
 
-| Entrega | Período | Descrição | Status |
-|---------|---------|-----------|--------|
-| **Entrega 1** | 01/04 – 05/04 | Escopo, justificativa, metodologia e plano de trabalho | ✅ Concluída |
-| **Entrega 2** | 06/05 – 10/05 | Protótipo funcional com EDA e modelos preliminares | ⚙️ Em andamento |
-| **Entrega 3** | 17/06 – 21/06 | MVP final com demonstração e documentação técnica | 🎯 Planejada |
+| Entrega       | Período       | Descrição                                              | Status          |
+| ------------- | ------------- | ------------------------------------------------------ | --------------- |
+| **Entrega 1** | 01/04 – 05/04 | Escopo, justificativa, metodologia e plano de trabalho | ✅ Concluída    |
+| **Entrega 2** | 06/05 – 10/05 | Protótipo funcional com EDA e modelos preliminares     | ⚙️ Em andamento |
+| **Entrega 3** | 17/06 – 21/06 | MVP final com demonstração e documentação técnica      | 🎯 Planejada    |
 
 ---
 
