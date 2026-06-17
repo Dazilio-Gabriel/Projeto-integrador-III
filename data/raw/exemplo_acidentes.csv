@@ -1,0 +1,6 @@
+data_inversa;horario;municipio;uf;br;km;causa_acidente;tipo_acidente;classificacao_acidente;condicao_metereologica;tipo_pista;mortos;feridos_graves;feridos_leves;veiculos;pessoas;latitude;longitude
+2024-01-03;07:30;Vitoria;ES;BR-101;268,4;Falta de atencao;Colisao traseira;Com vitimas feridas;Ceu claro;Dupla;0;1;2;2;4;-20,3155;-40,3128
+2024-01-05;18:45;Serra;ES;BR-101;252,0;Velocidade incompativel;Saida de pista;Com vitimas fatais;Chuva;Simples;1;0;1;1;2;-20,1288;-40,3078
+2024-02-11;23:10;Cariacica;ES;BR-262;7,2;Ingestao de alcool;Atropelamento;Com vitimas feridas;Nublado;Dupla;0;2;0;1;3;-20,2632;-40,4165
+2024-03-19;14:20;Vila Velha;ES;BR-447;3,5;Desobediencia as normas;Colisao lateral;Sem vitimas;Ceu claro;Dupla;0;0;0;2;2;-20,3478;-40,2949
+2024-04-02;05:50;Viana;ES;BR-262;18,0;Defeito mecanico;Tombamento;Com vitimas feridas;Nevoeiro;Simples;0;1;1;1;2;-20,3903;-40,4969
