@@ -1,0 +1,1 @@
+"""Pacote do projeto de analise de acidentes."""

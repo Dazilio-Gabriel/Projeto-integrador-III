@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Acidentes ES 2025</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">PRF DATATRAN 2025</p>
+        <h1>Acidentes em rodovias federais do Espírito Santo</h1>
+      </div>
+      <div class="scope-pill" id="scopeLabel">ES</div>
+    </header>
+
+    <main>
+      <section class="filters" aria-label="Filtros">
+        <label>
+          Região
+          <select id="regionFilter">
+            <option value="all">Espírito Santo</option>
+            <option value="gv">Grande Vitória</option>
+          </select>
+        </label>
+        <label>
+          Município
+          <select id="cityFilter">
+            <option value="all">Todos</option>
+          </select>
+        </label>
+        <label>
+          Rodovia
+          <select id="roadFilter">
+            <option value="all">Todas</option>
+          </select>
+        </label>
+        <label>
+          Risco
+          <select id="riskFilter">
+            <option value="all">Todos</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="kpis" aria-label="Indicadores principais">
+        <article>
+          <span>Total</span>
+          <strong id="kpiTotal">0</strong>
+        </article>
+        <article>
+          <span>Alto risco</span>
+          <strong id="kpiRisk">0</strong>
+        </article>
+        <article>
+          <span>Mortos</span>
+          <strong id="kpiDeaths">0</strong>
+        </article>
+        <article>
+          <span>Feridos</span>
+          <strong id="kpiInjured">0</strong>
+        </article>
+      </section>
+
+      <section class="grid">
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>Acidentes por mês</h2>
+            <span id="monthInsight"></span>
+          </div>
+          <canvas id="monthChart" height="230"></canvas>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>Horários críticos</h2>
+          </div>
+          <canvas id="hourChart" height="260"></canvas>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>Municípios</h2>
+          </div>
+          <div id="cityBars" class="bars"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>Causas principais</h2>
+          </div>
+          <div id="causeBars" class="bars"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>Rodovias</h2>
+          </div>
+          <div id="roadBars" class="bars"></div>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>Pontos críticos por rodovia e km</h2>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rodovia</th>
+                  <th>Km</th>
+                  <th>Município</th>
+                  <th>Acidentes</th>
+                  <th>Alto risco</th>
+                </tr>
+              </thead>
+              <tbody id="hotspotsTable"></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
